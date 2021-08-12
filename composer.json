@@ -1,0 +1,19 @@
+{
+    "name": "edwin/proyecto_basico_php",
+    "description": "Proyecto b\u0000sico",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Edwin Cosio"
+        }
+    ],
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/"
+		},
+		"files": [
+			"app/Helpers.php"
+		]
+	}
+}
